@@ -1,0 +1,121 @@
+@import "font.css";
+
+/* CSS RESET */
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* HEADER */
+
+header {
+  display: flex;  
+  justify-content: space-between;
+  padding: 30px 72px;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+.botao {
+  position: relative;
+}
+
+.botao:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: black;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.botao:hover:after {
+  width: 100%;
+}
+
+
+main {
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 77px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+}
+
+main img {
+  width: 700;
+  height: 519;
+}
+
+.info {
+  margin-top: 118px;
+}
+
+.info p {
+  margin-top: 22px;
+  margin-bottom: 40px;
+}
+
+.info input {
+  margin-bottom: 50px;
+  width: 400px;
+  height: 58px;
+  border-radius: 35px;
+  background-color: #e6e6e6;
+  border: none;
+  padding-left: 27px;
+}
+
+.info input::placeholder {
+  color: #6f6f6f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.form {
+  position: relative;
+}
+.botao-form {
+  position: absolute;
+  right: 72px;
+  background-color: #4828c2;
+  padding: 16px 18px;
+  margin: 0;
+  border-radius: 35px;
+  height: 60px;
+  width: 151px;
+  border: none;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}

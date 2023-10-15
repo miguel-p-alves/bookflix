@@ -1,0 +1,48 @@
+.p-regular {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.p-medium {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.p-lsbold {
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+.p-ssbold {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.p-ssbold {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 4.5rem;
+}
+
+.p-light {
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.r-reg {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.preto {
+  color: #000;
+}
+.branco {
+  color: #fff;
+}
